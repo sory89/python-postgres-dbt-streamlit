@@ -19,12 +19,6 @@ It simulates a **production-ready data workflow**, from ingestion to business in
 - Apply layered data modeling (raw → staging → mart)  
 - Deliver business-ready insights through dashboards  
 
----
-
-## 🏗️ Architecture
-
----
-
 ## 🏗️ Architecture
 
     +-------------+
