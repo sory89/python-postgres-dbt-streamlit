@@ -108,7 +108,7 @@ The project follows a **layered architecture**:
 
 ## ▶️ Getting Started
 
-
+```bash
 ### 1. Create virtual environment
 
 python -m venv venv
