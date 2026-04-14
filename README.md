@@ -1,15 +1,27 @@
-# 🚀 Modern Data Pipeline (PostgreSQL + dbt + Streamlit)
+# 🚀 Modern Data Pipeline — PostgreSQL + dbt + Streamlit
+
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-336791?style=for-the-badge&logo=postgresql&logoColor=white)
+![dbt](https://img.shields.io/badge/dbt-FF694B?style=for-the-badge&logo=dbt&logoColor=white)
+![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white)
+
+---
 
 ## 📌 Overview
 
-This project demonstrates a modern end-to-end data pipeline using open-source tools:
+This project showcases a **modern end-to-end data pipeline** built using open-source tools, following DataOps and Analytics Engineering best practices.
 
-- 🐍 Python for data ingestion  
-- 🐘 PostgreSQL for data storage  
-- ⚙️ dbt (data build tool) for transformations  
-- 📊 Streamlit for data visualization  
+It simulates a **production-ready data workflow**, from ingestion to business insights.
 
-The goal is to simulate a **production-ready analytics workflow** with a scalable architecture.
+### 🔍 Key Objectives
+
+- Build a scalable and modular data pipeline  
+- Apply layered data modeling (raw → staging → mart)  
+- Deliver business-ready insights through dashboards  
+
+---
+
+## 🏗️ Architecture
 
 ---
 
@@ -40,28 +52,69 @@ The goal is to simulate a **production-ready analytics workflow** with a scalabl
 
     ---
 
+---
+
 ## ⚙️ Tech Stack
 
-- Python  
-- PostgreSQL  
-- dbt-core  
-- Streamlit  
-
----
+- 🐍 Python — data ingestion & processing  
+- 🐘 PostgreSQL — relational data storage  
+- ⚙️ dbt-core — data transformation (ELT)  
+- 📊 Streamlit — interactive dashboards  
 
 ---
 
 ## 🚀 Features
 
-- Automated data ingestion  
-- Layered data modeling (raw → staging → mart)  
-- SQL transformations with dbt  
-- Interactive dashboards with Streamlit  
-- Modular and reproducible pipeline  
+- 🔄 Automated data ingestion pipeline  
+- 🧱 Layered data modeling (raw → staging → mart)  
+- ⚡ SQL-based transformations with dbt  
+- 📈 Interactive dashboards with Streamlit  
+- ♻️ Modular and reusable architecture  
 
 ---
 
+## 📊 Data Pipeline Flow
+
+1. **Ingestion (Python)**  
+   - Collects and loads raw data into PostgreSQL  
+
+2. **Storage (PostgreSQL)**  
+   - Centralized structured data storage  
+
+3. **Transformation (dbt)**  
+   - Data cleaning and modeling  
+   - Creation of analytics-ready tables  
+
+4. **Visualization (Streamlit)**  
+   - Interactive dashboards for business insights  
+
+---
+
+## 📈 Dashboard Preview
+
+![Dashboard](https://github.com/user-attachments/assets/ea772d7c-084c-4640-b508-f944a203bd6f)
+
+---
+
+## 🧠 Data Modeling (dbt)
+
+The project follows a **layered architecture**:
+
+- **Raw Layer** → Ingested data  
+- **Staging Layer** → Cleaned & standardized data  
+- **Mart Layer** → Business-ready datasets  
+
+### Example Models
+
+- `stg_orders`
+- `fct_sales`
+- `dim_customers`
+
+---
+
+## ▶️ Getting Started
+
+### 1. Install dependencies
+
+```bash
 pip install -r requirements.txt
-
-
-<img width="956" height="490" alt="image" src="https://github.com/user-attachments/assets/ea772d7c-084c-4640-b508-f944a203bd6f" />
