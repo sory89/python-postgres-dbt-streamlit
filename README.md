@@ -9,15 +9,21 @@
 
 ## 📌 Overview
 
-This project showcases a **modern end-to-end data pipeline** built using open-source tools, following DataOps and Analytics Engineering best practices.
+This project demonstrates a **production-grade modern data pipeline** built with open-source technologies, following **DataOps and Analytics Engineering best practices**.
 
-It simulates a **production-ready data workflow**, from ingestion to business insights.
+It simulates a **real-world data platform**, covering the full lifecycle:
+**data ingestion → transformation → analytics → visualization**
 
-### 🔍 Key Objectives
+---
 
-- Build a scalable and modular data pipeline  
-- Apply layered data modeling (raw → staging → mart)  
-- Deliver business-ready insights through dashboards  
+## 🎯 Business Value
+
+- Deliver **clean, reliable, and analytics-ready datasets**
+- Enable **data-driven decision making**
+- Reduce data processing complexity through **modular architecture**
+- Improve scalability and maintainability of data workflows
+
+---
 
 ## 🏗️ Architecture
 
@@ -85,6 +91,8 @@ It simulates a **production-ready data workflow**, from ingestion to business in
 ## 📈 Dashboard Preview
 
 ![Dashboard](https://github.com/user-attachments/assets/ea772d7c-084c-4640-b508-f944a203bd6f)
+<img width="959" height="512" alt="image" src="https://github.com/user-attachments/assets/66f82678-309a-446a-9c5e-31b76a53438b" />
+
 
 ---
 
@@ -100,7 +108,28 @@ The project follows a **layered architecture**:
 
 ## ▶️ Getting Started
 
-### 1. Install dependencies
+
+### 1. Create virtual environment
+
+```bash
+python -m venv venv
+source venv/bin/activate  # Mac/Linux
+venv\Scripts\activate     # Windows
+
+### 2. Install dependencies
 
 ```bash
 pip install -r requirements.txt
+
+### 3. Setup PostgreSQL
+Create a database
+Update connection settings in your config file
+
+### 4. Run dbt
+```bash
+dbt run
+dbt test
+
+### 5. Launch Streamlit
+```bash
+streamlit run dashboard/app.py
