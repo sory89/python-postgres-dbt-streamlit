@@ -44,8 +44,6 @@ It simulates a **production-ready data workflow**, from ingestion to business in
     | Dashboard   |
     +-------------+
 
-    ---
-
 ---
 
 ## ⚙️ Tech Stack
