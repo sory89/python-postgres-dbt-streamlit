@@ -116,20 +116,20 @@ python -m venv venv
 source venv/bin/activate  # Mac/Linux
 venv\Scripts\activate     # Windows
 
-### 2. Install dependencies
+#### 2. Install dependencies
 
 ```bash
 pip install -r requirements.txt
 
-### 3. Setup PostgreSQL
+##### 3. Setup PostgreSQL
 Create a database
 Update connection settings in your config file
 
-### 4. Run dbt
+##### 4. Run dbt
 ```bash
 dbt run
 dbt test
 
-### 5. Launch Streamlit
+###### 5. Launch Streamlit
 ```bash
 streamlit run dashboard/app.py
