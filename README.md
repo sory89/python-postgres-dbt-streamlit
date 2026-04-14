@@ -104,12 +104,6 @@ The project follows a **layered architecture**:
 - **Staging Layer** → Cleaned & standardized data  
 - **Mart Layer** → Business-ready datasets  
 
-### Example Models
-
-- `stg_orders`
-- `fct_sales`
-- `dim_customers`
-
 ---
 
 ## ▶️ Getting Started
